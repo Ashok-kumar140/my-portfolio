@@ -10,7 +10,8 @@ const Header = () => {
 
 const NavContent = () => (
     <>
-        <h2>Ashok</h2>
+        
+        <div className="logo">&#8826; Ashok Kumar &#8725; &#8827;</div>
         <div>
             <a href="#home">Home</a>
             <a href="#work">Project</a>

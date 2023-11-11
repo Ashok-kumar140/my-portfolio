@@ -10,8 +10,10 @@ nav {
   top: 0%;
   z-index: 70;
 
-  > h2 {
-    font-size: 2rem;
+  .logo {
+    // font-size: 2rem;
+    font-family: 'Passions Conflict', cursive;
+    font-size: 18px;
   }
   > div {
     display: flex;
