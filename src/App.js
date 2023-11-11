@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Home from './components/Home';
+import Project from './components/Project';
 
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Home/>
+      <Project/>
     </>
   );
 }

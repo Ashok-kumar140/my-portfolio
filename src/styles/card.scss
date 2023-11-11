@@ -1,0 +1,71 @@
+.card {
+  height: 430px;
+  width: 300px;
+  margin: 0px 25px 50px 25px;
+
+  background-color: $color1;
+  //   position: relative;
+
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px 3px rgba(183, 40, 219, 0.459);
+  > div {
+    &:first-of-type {
+      height: 40%;
+      overflow: hidden;
+      padding: 10px 10px 10px 10px;
+      padding-left: 10px;
+      border-radius: 10px 10px 0px 0px;
+
+      > img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px 10px 10px 10px;
+        object-fit: contain;
+      }
+    }
+    &:last-of-type {
+      border-radius: 0px 0px 10px 10px;
+      > h3 {
+        text-align: center;
+        margin-bottom: 12px;
+        padding: 0px;
+        padding-bottom: 0px;
+        font-family: $text2;
+      }
+      > p {
+        text-align: justify;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.4;
+        margin-bottom: 13px;
+      }
+      > div {
+        display: flex;
+        justify-content: space-around;
+        // align-items: end;
+        // padding: 10px;
+        // padding-top: 0;
+        > a {
+          height: 35px;
+          width: 100px;
+          border-radius: 5px;
+          padding: 5px 5px;
+          font-family: $text1, sans-serif;
+          color: $color3;
+          border: transparent;
+          overflow: hidden;
+          box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+            7px 7px 20px 0px rgba(0, 0, 0, 0.1),
+            4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+          &:hover {
+            box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.5),
+              -4px -4px 6px 0 rgba(116, 125, 136, 0.5),
+              inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+              inset 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+    }
+  }
+}
