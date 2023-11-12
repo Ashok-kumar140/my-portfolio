@@ -1,0 +1,66 @@
+footer {
+  min-height: 100px;
+  background-color: $color6;
+  color: $color4;
+  padding: 1rem 0;
+  padding-left: $p;
+  display: grid;
+  grid-template-columns: 6fr 4fr 3fr;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  // justify-content: space-around;
+  > div {
+    &:first-of-type {
+      width: 100%;
+      border-left: 1px solid $color4;
+      border-right: 1px solid $color4;
+      > img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: contain;
+      }
+
+      > h3 {
+        margin: 0.5rem;
+      }
+      > p {
+        font: 400 1.2rem $text2;
+      }
+    }
+    &:last-of-type {
+      width: 100%;
+      border-right: 1px solid $color4;
+      // padding-right: 3rem;
+      > article {
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        svg {
+          font-size: 2rem;
+          color: $color4;
+          &:hover {
+            color: $color3;
+          }
+        }
+      }
+    }
+  }
+
+  > a {
+    width: 50px;
+    height: 50px;
+    background-color: $color4;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+
+    svg {
+      font-size: 2rem;
+      color: $color3;
+    }
+  }
+}
