@@ -27,3 +27,9 @@ body{
     background-color: $color1;
     overflow-x: hidden;
 }
+
+.disableBtn {
+    color: $color6 !important;
+    background-color: rgb(237,237,237) !important;
+    cursor: not-allowed !important;
+}

@@ -13,13 +13,13 @@ const Footer = () => {
             <div>
                 <h3>Connect With Me</h3>
                 <article>
-                    <a href="https://www.linkedin.com/in/ashok-kumar-117b65204/" target='_blank'>
+                    <a href="https://www.linkedin.com/in/ashok-kumar-117b65204/" target='_blank' rel="noreferrer">
                         <AiFillLinkedin />
                     </a>
-                    <a href="https://github.com/Ashok-kumar140" target='_blank'>
+                    <a href="https://github.com/Ashok-kumar140" target='_blank' rel="noreferrer">
                         <AiOutlineGithub />
                     </a>
-                    <a href="https://www.instagram.com/a.k.daukiya/" target='_blank'>
+                    <a href="https://www.instagram.com/a.k.daukiya/" target='_blank' rel="noreferrer">
                         <AiFillInstagram />
                     </a>
                 </article>
