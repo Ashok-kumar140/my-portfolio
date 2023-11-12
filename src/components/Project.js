@@ -13,11 +13,11 @@ const Project = () => {
                 <p>Here are a few projects I've worked on recently.</p>
             </div>
             <div >
-                {projectarray.map((projectarray) => {
-                    return <div key={projectarray.githubLink}>
+                {projectarray.map((projectarray) => (
+                    <div key={projectarray.title}>
                         <Card title={projectarray.title} description={projectarray.description} imgLink={projectarray.imgSrc} demoLink={projectarray.url} />
                     </div>
-                })}
+                ))}
             </div>
 
         </div>
